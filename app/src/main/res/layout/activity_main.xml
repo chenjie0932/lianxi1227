@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.test.lianxi1227.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_waterwall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="瀑布流" />
+    <TextView
+        android:id="@+id/tv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上拉加载下拉刷新" />
+    <TextView
+        android:id="@+id/tv_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cardView" />
+</LinearLayout>
